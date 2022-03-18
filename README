@@ -16,7 +16,7 @@ update.2022/03/17:
 modify 001_make_staticLib/src/get_image.c, change process flow. Solve the problem of receiving photos abnormally.
 add RAW6/7/8/16/20 into cvt_ByteOrder func.
 
-update.2022/03/17:
+update.2022/03/18:
 use cam_get_image_ext_fmt func. instead of cam_get_image func.
 cam_get_image_ext_fmt has new parameter "fmt", 
 you can put in UINT_8/UINT_16/UINT_32/FLOAT_32 to select different data type.
